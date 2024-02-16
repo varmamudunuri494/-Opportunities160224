@@ -24,5 +24,5 @@ Creating a New Opportunity
     TypeText           radius                      5
     TypeText           height                      10
     PickList           *Stage                      Prospecting
-    ClickCheckbox      Private                     on
+    ClickCheckbox      //div[@class\='slds-form-element__control slds-grow']//input[@name\='IsPrivate']    on
     TypeText           *Close Date                 17/02/2024
