@@ -21,3 +21,6 @@ Creating a New Opportunity
     PickList           Type                        New Customer
     PickList           Lead Source                 Web
     PickList           *Opportunity Currency       CAD - Canadian Dollar
+    TypeText           radius                      5
+    TypeText           height                      10
+    PickList           *Stage                      Prospecting
