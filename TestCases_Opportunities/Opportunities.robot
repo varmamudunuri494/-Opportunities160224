@@ -13,3 +13,4 @@ Creating a new Opportunities
     [Documentation]    Creating a new Opportunities
     Appstate           Home
     LaunchApp          Sales
+    ClickText          Opportunities
