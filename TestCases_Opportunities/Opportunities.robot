@@ -27,3 +27,9 @@ Creating a New Opportunity
     ClickCheckbox      //div[@class\='slds-form-element__control slds-grow']//input[@name\='IsPrivate']    on
     TypeText           *Close Date                 17/10/2024
     ComboBox           Search Accounts...          Burlington Textiles Corp of America
+    VerifyText         Additional Information
+    TypeText           Order Numbe                 1256321
+    TypeText           Main Competitor(s)          Ravi Infrastructure of India
+    TypeText           Tracking Number             25632145
+    PickList           Delivery/Installation Status                        Yet to begin
+    
