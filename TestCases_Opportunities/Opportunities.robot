@@ -25,3 +25,4 @@ Creating a New Opportunity
     TypeText           height                      10
     PickList           *Stage                      Prospecting
     ClickCheckbox      Private                     on
+    TypeText           *Close Date                 17/02/2024
