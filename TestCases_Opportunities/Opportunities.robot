@@ -14,3 +14,10 @@ Creating a new Opportunities
     Appstate           Home
     LaunchApp          Sales
     ClickText          Opportunities
+    ClickText          New
+    UseModal           On
+    TypeText           *Opportunity Name    VarmaIndustries
+    TypeText           Amount               50000
+    PickList           Type                 New Customer
+    PickList           Lead Source          Web
+    
