@@ -33,7 +33,7 @@ Creating a New Opportunity
     TypeText           Tracking Number             25632145
     PickList           Delivery/Installation Status                            Yet to begin
     VerifyText         Description Information
-    TypeText           Description                 Creating a new Opportunity
+    TypeText           Description                 Creating a new Opportunity for Varma Industries
     #ClickText         Save                        partial_match=False
     #UseModal          Off
     Sleep             3s
