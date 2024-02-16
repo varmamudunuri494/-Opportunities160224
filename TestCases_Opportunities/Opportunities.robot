@@ -24,3 +24,4 @@ Creating a New Opportunity
     TypeText           radius                      5
     TypeText           height                      10
     PickList           *Stage                      Prospecting
+    ClickCheckbox      Private                     on
