@@ -8,7 +8,7 @@ Suite Teardown         Close All Browsers
 Resource               ../OpportunitiesCommonResources/OpportunitiesComResou.robot
 
 *** Test Cases ***
-Creating a new Opportunities
+Creating a New Opportunity
     [Tags]             Opportunities
     [Documentation]    Creating a new Opportunities
     Appstate           Home
