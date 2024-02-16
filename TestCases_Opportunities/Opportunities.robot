@@ -31,5 +31,4 @@ Creating a New Opportunity
     TypeText           Order Numbe                 1256321
     TypeText           Main Competitor(s)          Ravi Infrastructure of India
     TypeText           Tracking Number             25632145
-    PickList           Delivery/Installation Status                        Yet to begin
-    
+    PickList           Delivery/Installation Status                            Yet to begin
