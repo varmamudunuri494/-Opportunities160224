@@ -16,4 +16,8 @@ Creating a new Opportunities
     ClickText          Opportunities
     ClickText          New
     UseModal           On
-    
+    TypeText           Amount                      50000
+    TypeText           *Opportunity Name           Varma Industries
+    PickList           Type                        New Customer
+    PickList           Lead Source                 Web
+    PickList           *Opportunity Currency       CAD - Canadian Dollar
