@@ -25,4 +25,5 @@ Creating a New Opportunity
     TypeText           height                      10
     PickList           *Stage                      Prospecting
     ClickCheckbox      //div[@class\='slds-form-element__control slds-grow']//input[@name\='IsPrivate']    on
-    TypeText           *Close Date                 17/02/2024
+    TypeText           *Close Date                 17/10/2024
+    ComboBox           Search Accounts...          Burlington Textiles Corp of America
