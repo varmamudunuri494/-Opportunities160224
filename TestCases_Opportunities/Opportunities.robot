@@ -32,3 +32,8 @@ Creating a New Opportunity
     TypeText           Main Competitor(s)          Ravi Infrastructure of India
     TypeText           Tracking Number             25632145
     PickList           Delivery/Installation Status                            Yet to begin
+    VerifyText         Description Information
+    TypeText           Description                 Creating a new Opportunity
+    #ClickText         Save                        partial_match=False
+    #UseModal          Off
+    Sleep             3s
