@@ -55,4 +55,6 @@ Editing the Existing Record
     ClickText          Edit Next Step
     TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    2563214567
     TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to submit to next approver
+    ${ContactName}=    GetText                     //div[@class\='outputLookupContainer slds-grid forceOutputLookupWithPreview']//a
+    log                ${ContactName}
     ClickText          Save                        partial_match=False
