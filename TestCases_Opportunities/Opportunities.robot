@@ -41,3 +41,12 @@ Creating a New Opportunity
     ClickText          Save                        partial_match=False
     UseModal           Off
     Sleep              3s
+
+Editing the Existing Record
+    [Tags]             Edit the New Opportunities
+    [Documentation]    Editing the Varma Industries Opportunity
+    Appstate           Home
+    LaunchApp          Sales
+    ClickText          Opportunities
+    ClickItem          Select a List View: All Opportunities
+
