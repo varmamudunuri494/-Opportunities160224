@@ -48,5 +48,11 @@ Editing the Existing Record
     Appstate           Home
     LaunchApp          Sales
     ClickText          Opportunities
-    ClickItem          Select a List View: All Opportunities
-
+    ClickText          All Opportunities
+    TypeText           //div[@class\='slds-form-element__control slds-grow slds-input-has-icon slds-input-has-icon_left-right']//input[@class\='slds-input']    Varma Industries\n
+    ClickText          Varma Industries
+    ClickText          Details
+    ClickText          Edit Next Step
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    2563214567
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to submit to next approver
+    ClickText          Save                        partial_match=False
