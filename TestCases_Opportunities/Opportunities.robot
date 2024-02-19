@@ -57,5 +57,5 @@ Editing the Existing Record
     TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to submit to next approver
     ${ContactName}=    GetText                     //div[@class\='outputLookupContainer slds-grid forceOutputLookupWithPreview']//a
     log                ${ContactName}
-    TypeText           //div[@class\='slds-form-element__control slds-grow textarea-container']           This is editing ${ContactName}
+    TypeText           //div[@class\='slds-form-element__control slds-grow textarea-container']           This is editing
     ClickText          Save                        partial_match=False
