@@ -48,7 +48,6 @@ Editing the Existing Record
     Appstate           Home
     LaunchApp          Sales
     ClickText          Opportunities
-    #ClickText         Select a List View: All Opportunities
     ClickText          Select a List View: Opportunities
     TypeText           //div[@class\='slds-form-element__control slds-grow slds-input-has-icon slds-input-has-icon_left-right']//input[@class\='slds-input']    Varma Industries\n
     ClickText          Varma Industries
