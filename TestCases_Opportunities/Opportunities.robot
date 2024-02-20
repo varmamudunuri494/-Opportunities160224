@@ -57,4 +57,5 @@ Editing the Existing Record
     TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to submit to Needs Analysis Varma
     #PickList          *Stage                      Qualification
     PickList           *Stage                      Needs Analysis
+    PickList           Lead Source                 Phone Inquiry
     ClickText          Save                        partial_match=False
