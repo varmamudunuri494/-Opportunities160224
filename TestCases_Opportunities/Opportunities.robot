@@ -55,5 +55,6 @@ Editing the Existing Record
     ClickText          Edit Next Step
     TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    256321456780
     TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to approver varma
-    PickList           *Stage                      Qualification
+    #PickList           *Stage                      Qualification
+    PickList           *Stage                      Needs Analysis
     ClickText          Save                        partial_match=False
