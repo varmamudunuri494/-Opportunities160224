@@ -53,7 +53,7 @@ Editing the Existing Record
     ClickText          Varma Industries
     ClickText          Details
     ClickText          Edit Next Step
-    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    25632145678
-    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to submit to next approver varma
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    256321456780
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to approver varma
     PickList           *Stage                      Qualification
     ClickText          Save                        partial_match=False
