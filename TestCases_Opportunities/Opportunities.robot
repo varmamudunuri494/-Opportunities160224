@@ -56,10 +56,4 @@ Editing the Existing Record
     ClickText          Edit Next Step
     TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    2563214567
     TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to submit to next approver
-    #only single record we will get from the Contact Roles
-    #${ContactName}=                               GetText                     //div[@class\='outputLookupContainer slds-grid forceOutputLookupWithPreview']//a
-    #To get all the record from the Contact Roles
-    ${ContactName}=    GetText                     //div[@class\='container forceRelatedListSingleContainer']//article[@aria-label\='Contact Roles']
-    log                ${ContactName}
-    TypeText           //div[@class\='slds-form-element__control slds-grow textarea-container']//textarea[@class\='slds-textarea']    This is editing ${ContactName}
     ClickText          Save                        partial_match=False
