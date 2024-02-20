@@ -54,7 +54,7 @@ Editing the Existing Record
     ClickText          Details
     ClickText          Edit Next Step
     TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    2563214780
-    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to submit to Needs Analysis Varma
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to submit Analysis Varma
     #PickList          *Stage                      Qualification
     PickList           *Stage                      Needs Analysis
     PickList           Lead Source                 Phone Inquiry
