@@ -60,5 +60,6 @@ Editing the Existing Record
     PickList           *Stage                      Value Proposition
     PickList           Lead Source                 Phone Inquiry
     ${ContactName}=    GetText                     //div[@class\='outputLookupContainer slds-grid forceOutputLookupWithPreview']//a
-    TypeText           //div[@class\='slds-form-element__control slds-grow textarea-container']//textarea[@class\='slds-textarea']    Editing a new Opportunity for Varma Industries ${ContactName}
+    #TypeText          //div[@class\='slds-form-element__control slds-grow textarea-container']//textarea[@class\='slds-textarea']    Editing a new Opportunity for Varma Industries ${ContactName}
+    TypeText           Description                 Editing Varma Industries ${ContactName}
     ClickText          Save                        partial_match=False
