@@ -32,7 +32,7 @@ Creating a New Opportunity
     #UseModal          On
     #UseModal          Off
     VerifyText         Additional Information
-    TypeText           Order Numbe                 1256321
+    TypeText           Order Number                 1256321
     TypeText           Main Competitor(s)          Ravi Infrastructure of India
     TypeText           Tracking Number             25632145
     PickList           Delivery/Installation Status                            Yet to begin
