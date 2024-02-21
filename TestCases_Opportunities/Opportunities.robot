@@ -53,9 +53,11 @@ Editing the Existing Record
     ClickText          Varma Industries
     ClickText          Details
     ClickText          Edit Next Step
-    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    2563214780
-    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to submit Analysis Varma
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    256321471280
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to Analysis Varma
     #PickList          *Stage                      Qualification
     PickList           *Stage                      Needs Analysis
     PickList           Lead Source                 Phone Inquiry
+    ${ContactName}=    GetText                     //div[@class\='outputLookupContainer slds-grid forceOutputLookupWithPreview']//a
+    TypeText           //div[@class\='slds-form-element__control slds-grow textarea-container']//textarea[@class\='slds-textarea']    Editing a new Opportunity for Varma Industries ${ContactName}
     ClickText          Save                        partial_match=False
